@@ -1,7 +1,7 @@
 // https://prettier.io/docs/en/configuration.html
 module.exports = {
   // width of each line (number of characters displayed)
-  printWidth: 160,
+  printWidth: 120,
 
   // The number of spaces in the tab key
   tabWidth: 2,

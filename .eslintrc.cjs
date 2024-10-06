@@ -13,7 +13,13 @@ module.exports = {
     defineProps: true,
     defineExpose: true,
   },
-  extends: ['./.eslintrc-auto-import.json', 'plugin:vue/vue3-recommended', 'plugin:prettier/recommended', 'eslint:recommended'],
+  extends: [
+    './.eslintrc-auto-import.json',
+    'airbnb-base',
+    'plugin:vue/vue3-recommended',
+    'plugin:prettier/recommended',
+    'eslint:recommended',
+  ],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
