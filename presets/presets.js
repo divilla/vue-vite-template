@@ -15,8 +15,8 @@ import { defineConfig } from 'vite';
 
 const defaultClasses = 'prose prose-sm m-auto text-left';
 
-export default defineConfig({
-  plugins: [
+export default () => {
+  return [
     vue({
       include: [/\.vue$/, /\.md$/],
     }),
@@ -70,5 +70,5 @@ export default defineConfig({
         });
       },
     }),
-  ],
-});
+  ];
+};
