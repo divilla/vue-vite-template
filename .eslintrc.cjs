@@ -13,12 +13,12 @@ module.exports = {
     defineProps: true,
     defineExpose: true,
   },
-  extends: ['./.eslintrc-auto-import.json', 'plugin:vue/vue3-recommended', 'plugin:prettier/recommended', 'eslint:recommended'],
+  extends: ['./.eslintrc-auto-import.json', 'plugin:vue/vue3-recommended', 'eslint:recommended'],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['vue', 'import', 'prettier'],
+  plugins: ['vue', 'import'],
   rules: {
     'no-undef': 0,
     'vue/no-multiple-template-root': 0,
