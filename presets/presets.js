@@ -11,7 +11,6 @@ import UnMarkdown from 'unplugin-vue-markdown/vite';
 import Prism from 'markdown-it-prism';
 import UnFonts from 'unplugin-fonts/vite';
 import LinkAttributes from 'markdown-it-link-attributes';
-import { defineConfig } from 'vite';
 
 const defaultClasses = 'prose prose-sm m-auto text-left';
 
